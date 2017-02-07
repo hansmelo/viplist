@@ -14,6 +14,15 @@ public class Convidado {
 	private String nome;
 	private String email;
 	private String telefone;
+	
+	public Convidado() {
+	}
+	
+	public Convidado(String nome, String email, String telefone) {
+		this.nome = nome;
+		this.email = email;
+		this.telefone = telefone;
+	}
 
     public void setId(Long id) {
         this.id = id;
